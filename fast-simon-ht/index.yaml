@@ -1,0 +1,13 @@
+indexes:
+- kind: ActionLog
+  properties:
+  - name: created_at
+  - name: is_active
+  - name: name
+  - name: type
+  - name: value
+    direction: desc
+- kind: StoredValue
+  properties:
+  - name: name
+  - name: value
